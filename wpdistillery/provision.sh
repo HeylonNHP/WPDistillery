@@ -21,3 +21,8 @@ echo "WP-CLI Update done"
 echo "== Run WPDistillery =="
 cd ../../var/www/wpdistillery
 sudo -u vagrant bash wpdistillery.sh
+
+# Heylon White ------------------------------
+sudo apt-get install lftp
+sudo gem install wordmove
+# -------------------------------------------
